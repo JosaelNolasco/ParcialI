@@ -1,0 +1,105 @@
+*{
+margin:0;
+padding:0; 
+}
+body{
+background-color:black;
+background-image:url("../imagenes/cocazero.jpg");
+background-attachment:fixed;
+font-family:calibri,arial;
+}
+.contacto{
+border:1px solid #CED5D7;
+border-radius:2px;
+padding:45px 45px 20px;
+margin-top:10px;
+background-color:white;
+box-shadow: 0px 5px 10px #B5C1C5, 0 0 0 10PX #EEF5F7 inset;
+}
+
+#contenedor
+{
+color:black;
+background-color:white;
+width:75%;
+margin:0 auto;
+margin-top:15px;
+}
+#encabezado
+{
+position:relative;
+color:white;
+background-color:#f3c600;
+background-image:url("../imagenes/coca.jpg");
+padding-top:10px;
+padding-bottom:0px;
+padding-right:20px;
+padding-left:20px;
+
+}
+#encabezado p{
+position:absolute;
+top:10px;
+right:60px;
+padding: 5px 0 5px 0;
+margin-bottom:0;
+font-family:cambria;
+}
+#encabezado img{
+background-color:black;
+padding:5px;
+border:1px solid #d9d9d9;
+}
+#menus{
+text-align:right;
+padding-top:0px;
+padding-bottom:0px;
+padding-right:0;
+padding-left:0;
+
+}
+#menus ul{
+border:1px solid red;
+margin-bottom:0;
+}
+#menus li{
+display:inline;
+list-style-type:none;
+margin:0 10px 0 0;
+padding:6px 0 6px 3px;
+}
+#menus a{
+text-decoration:none;
+}
+#menus a:hover{
+text-decoration:underline;
+background-color:black;
+color:white;
+}
+#areatexto{
+color:black;
+padding-top:0px;
+padding-bottom:5px;
+padding-right:20px;
+padding-left:20px;
+text-align:justify;
+line-height:1.5em;
+text-indent:1em;
+}
+#pie{
+margin-top:10px;
+background-image:url("../imagenes/coca.jpg");
+padding-top:10px;
+padding-bottom:20px;
+border-top:1px solid #8c8c8c;
+padding-right:20px;
+padding-left:20px,
+
+}
+#pie p{
+text-align:center;
+color:white;
+font-weight:bold;
+font-size:0.75em;
+}
+
